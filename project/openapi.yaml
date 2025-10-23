@@ -1,0 +1,23 @@
+openapi: 3.1.0
+info:
+  title: Sample
+  version: 0.0.0
+paths:
+  "/sample":
+    get:
+      responses:
+        "200":
+          description: Default Response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  num:
+                    type: integer
+                    maximum: 100
+                    minimum: 10
+                  str:
+                    type: string
+                    maxLength: 100
+                    minLength: 10

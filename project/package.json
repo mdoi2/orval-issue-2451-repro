@@ -1,0 +1,12 @@
+{
+  "name": "orval-issue-2451-repro",
+  "version": "0.0.0",
+  "description": "",
+  "private": "true",
+  "type": "module",
+  "devDependencies": {
+    "orval": "7.14.0",
+    "typescript": "5.9.3",
+    "zod": "4.1.12"
+  }
+}

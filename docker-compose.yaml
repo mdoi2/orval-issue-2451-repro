@@ -1,0 +1,5 @@
+services:
+  repro:
+    image: node:24.10.0
+    volumes:
+      - ./project:/var/src/repro
