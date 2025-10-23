@@ -9,7 +9,7 @@ https://github.com/orval-labs/orval/issues/2451
 ### 1. Run Orval with Docker
 
 ```sh
-docker-compose run --rm repro cd /var/src/repro && npm i && npm exec orval
+docker-compose run --rm repro /bin/bash -c "cd /var/src/repro && npm i && npm exec orval"
 ```
 
 ### 2. Check the output file
